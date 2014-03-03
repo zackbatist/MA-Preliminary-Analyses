@@ -1,0 +1,197 @@
+source('BR.R')
+source ('BR.R')
+citation()
+source BR.R
+source ('BR.R')
+library(igraph)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected")
+g
+get.edgelist(graph, names=TRUE)
+get.edgelist(g, names=TRUE)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+get.edgelist(g, names=TRUE)
+write.graph(g, file, format+c("edgelist"))
+write.graph(g, file, format+c("edgelist"), ...)
+write.graph(g, file, format=c("edgelist"))
+write.graph(g, format=c("edgelist"))
+write.graph(g, file, format=c("edgelist"))
+write.graph(g, el, format=c("edgelist"))
+write.graph(g, el, format=("edgelist"))
+write.graph(g, el, format=c("edgelist",))
+write.graph(g, el, format=c("edgelist"))
+g
+get.edgelist(g, names=TRUE, weights=TRUE)
+get.edgelist(g, names=TRUE, weight=TRUE)
+get.edgelist(g, names=TRUE, weighted=TRUE)
+get.edgelist(g, names=TRUE,weighted=TRUE)
+get.edgelist(g, names=TRUE, attr='weight')
+get.edgelist(g, names=TRUE, attr="weight")
+get.edgelist(g, names=TRUE, round( E(g)$weight, 3 ))
+cbind ( get.edgelist(g) , round ( E(g)$weight, 3 ))
+write.graph(g, file, format=c()"edgelist")
+write.graph(g, file, format=c("edgelist")
+el.txt
+el
+write.graph(g, /zbatist/Dropbox/MA Thesis/g.txt, format=c("edgelist")
+write.graph(g, zbatist/Dropbox/MA Thesis/g.txt, format=c("edgelist")
+write.graph(g, "zbatist/Dropbox/MA Thesis/g.txt", format=c("edgelist")
+write.graph(g, "/zbatist/Dropbox/MA Thesis/g.txt", format=c("edgelist")
+write.graph(g, "Dropbox/MA Thesis/g.txt", format=c("edgelist")
+g.txt
+write.graph(g, "Dropbox/MA Thesis/g.txt", format=c("edgelist")
+g
+source ('BR.R')
+load igraph
+package igraph
+library(igraph)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+dat
+m=as.matrix(dat)
+m
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+write.graph (g, file, format=c(net))
+write.graph (g, p3.net, format=c(pajek))
+write.graph(g, p3.net, format=c(pajek))
+write.graph(g, file, format=c(pajek))
+write.graph(g, p3.net, format=c("pajek"))
+write.graph(g, p3, format=c("pajek"))
+write.graph(g, file, format=c("pajek"))
+write.graph(graph, file, format=c("pajek")
+write.graph(graph, file, format=c("pajek")rdsfc
+write.graph(g, file, format=c("pajek")rdsfc
+get.adjacency(g, type=c("upper"), names=TRUE, binary=FALSE)
+get.adjacency(g, type=c("upper"), names=TRUE)
+get.adjacency(g, type=c("upper"), names=TRUE, binary=FALSE)
+get.adjacency(g, type=c("upper"), names=TRUE, binary=NULL)
+get.adjacency(g, type=c("upper"), names=TRUE, weights=TRUE)
+get.adjacency(g, type=c("upper"), names=TRUE, weight=TRUE)
+get.adjacency(g, type=c("upper"), attr=TRUE, names=TRUE)
+get.adjacency(g, type=c("upper"), attr=w, names=TRUE)
+get.adjacency(g, type=c("upper"), attr=weighted, names=TRUE)
+get.adjacency(g, type=c("upper"), attr=edge, names=TRUE)
+get.adjacency(g, type=c("upper"), attr=NULL, edges=FALSE, names=TRUE)
+get.adjacency(g, type=c("upper"), attr=NULL, edges=TRUE, names=TRUE)
+q=get.adjacency(g, type=c("upper"), attr=NULL, edges=TRUE, names=TRUE)
+q
+write.graph(q, p3.net, format=c("pajek"))
+write.graph(g, p3.net, format=c("pajek"))
+write.graph(g, p3, format=c("pajek"))
+write.graph(p3.net, q, format=c("pajek"))
+write.graph(g, p3, format=c("pajek"))
+q
+g
+write.graph(q)
+write.graph(g)
+write.graph(g, p3.net, format=c("pajek"))
+write.graph(g, file=p3.net, format=c("pajek"))
+write.graph(g, file="p3.net", format=c("pajek"))
+gn=edge.betweenness.community(g, weights=E(graph)$weight, directed=FALSE, edge.betweenness=TRUE, merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn=edge.betweenness.community(g, weights=E(g)$weight, directed=FALSE, edge.betweenness=TRUE, merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+source('palla.r')
+clique.community <- function(g, k) {#
+   clq <- cliques(g, min=k, max=k)#
+   edges <- c()#
+   for (i in seq_along(clq)) {#
+     for (j in seq_along(clq)) {#
+       if ( length(unique(c(clq[[i]], clq[[j]]))) == k+1 ) {#
+         edges <- c(edges, c(i,j)-1)#
+       }#
+     }#
+   }#
+   clq.g <- simplify(g(edges))#
+   V(clq.g)$name <- seq_len(vcount(clq.g))#
+   comps <- decompose.graph(clq.g)#
+#
+   lapply(comps, function(x) {#
+     unique(unlist(clq[ V(x)$name ]))#
+   })#
+}
+clique.community <- function(g, k) {#
+   clq <- cliques(g, min=k, max=k)#
+   edges <- c()#
+   for (i in seq_along(clq)) {#
+     for (j in seq_along(clq)) {#
+       if ( length(unique(c(clq[[i]], clq[[j]]))) == k+1 ) {#
+         edges <- c(edges, c(i,j)-1)#
+       }#
+     }#
+   }#
+   clq.g <- simplify(g(edges))#
+   V(clq.g)$name <- seq_len(vcount(clq.g))#
+   comps <- decompose.graph(clq.g)#
+#
+   lapply(comps, function(x) {#
+     unique(unlist(clq[ V(x)$name ]))#
+   })#
+}
+clique.community <- function(graph, k) {#
+   clq <- cliques(graph, min=k, max=k)#
+   edges <- c()#
+   for (i in seq_along(clq)) {#
+     for (j in seq_along(clq)) {#
+       if ( length(unique(c(clq[[i]], clq[[j]]))) == k+1 ) {#
+         edges <- c(edges, c(i,j)-1)#
+       }#
+     }#
+   }#
+   clq.graph <- simplify(graph(edges))#
+   V(clq.graph)$name <- seq_len(vcount(clq.graph))#
+   comps <- decompose.graph(clq.graph)#
+#
+   lapply(comps, function(x) {#
+     unique(unlist(clq[ V(x)$name ]))#
+   })#
+}
+cliques.community
+clique.community
+clique.community <- function(g, k) {#
+   clq <- cliques(g, min=k, max=k)#
+   edges <- c()#
+   for (i in seq_along(clq)) {#
+     for (j in seq_along(clq)) {#
+       if ( length(unique(c(clq[[i]], clq[[j]]))) == k+1 ) {#
+         edges <- c(edges, c(i,j)-1)#
+       }#
+     }#
+   }#
+   clq.g <- simplify(g(edges))#
+   V(clq.g)$name <- seq_len(vcount(clq.g))#
+   comps <- decompose.graph(clq.g)#
+#
+   lapply(comps, function(x) {#
+     unique(unlist(clq[ V(x)$name ]))#
+   })#
+}
+clique.community
+clique.community(g)
+clique.community <- function(graph, k) {#
+   clq <- cliques(graph, min=k, max=k)#
+   edges <- c()#
+   for (i in seq_along(clq)) {#
+     for (j in seq_along(clq)) {#
+       if ( length(unique(c(clq[[i]], clq[[j]]))) == k+1 ) {#
+         edges <- c(edges, c(i,j)-1)#
+       }#
+     }#
+   }#
+   clq.graph <- simplify(graph(edges))#
+   V(clq.graph)$name <- seq_len(vcount(clq.graph))#
+   comps <- decompose.graph(clq.graph)#
+#
+   lapply(comps, function(x) {#
+     unique(unlist(clq[ V(x)$name ]))#
+   })#
+}
+clique.community(g)
+walktrap.community(g, weights = E(graph)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w=walktrap.community(g, weights = E(g)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
