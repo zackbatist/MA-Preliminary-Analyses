@@ -1,9 +1,0 @@
-# The communities at k=12
-# from /Users/zbatist/Dropbox/MA Thesis/Preliminary Analyses/End of February/P4/p4_cfinder_input.txt
-# at no lower link weight threshold,
-# and at no upper link weight threshold.
-# Links were treated as undirected.
-# No time limit was set for the clique search.
-
-0: 2 22 25 26 3 7 9 10 11 21 23 4 8 
-1: 1 12 13 14 16 17 18 19 2 22 24 25 26 3 5 6 7 8 
