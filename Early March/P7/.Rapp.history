@@ -1,0 +1,215 @@
+source('BR.R')
+source ('BR.R')
+citation()
+source BR.R
+source ('BR.R')
+library(igraph)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected")
+g
+get.edgelist(graph, names=TRUE)
+get.edgelist(g, names=TRUE)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+get.edgelist(g, names=TRUE)
+write.graph(g, file, format+c("edgelist"))
+write.graph(g, file, format+c("edgelist"), ...)
+write.graph(g, file, format=c("edgelist"))
+write.graph(g, format=c("edgelist"))
+write.graph(g, file, format=c("edgelist"))
+write.graph(g, el, format=c("edgelist"))
+write.graph(g, el, format=("edgelist"))
+write.graph(g, el, format=c("edgelist",))
+write.graph(g, el, format=c("edgelist"))
+g
+get.edgelist(g, names=TRUE, weights=TRUE)
+get.edgelist(g, names=TRUE, weight=TRUE)
+get.edgelist(g, names=TRUE, weighted=TRUE)
+get.edgelist(g, names=TRUE,weighted=TRUE)
+get.edgelist(g, names=TRUE, attr='weight')
+get.edgelist(g, names=TRUE, attr="weight")
+get.edgelist(g, names=TRUE, round( E(g)$weight, 3 ))
+cbind ( get.edgelist(g) , round ( E(g)$weight, 3 ))
+write.graph(g, file, format=c()"edgelist")
+write.graph(g, file, format=c("edgelist")
+el.txt
+el
+write.graph(g, /zbatist/Dropbox/MA Thesis/g.txt, format=c("edgelist")
+write.graph(g, zbatist/Dropbox/MA Thesis/g.txt, format=c("edgelist")
+write.graph(g, "zbatist/Dropbox/MA Thesis/g.txt", format=c("edgelist")
+write.graph(g, "/zbatist/Dropbox/MA Thesis/g.txt", format=c("edgelist")
+write.graph(g, "Dropbox/MA Thesis/g.txt", format=c("edgelist")
+g.txt
+write.graph(g, "Dropbox/MA Thesis/g.txt", format=c("edgelist")
+g
+library(geosphere)
+read.csv(x, "p5_longlat.csv")
+x=read.csv(p5_longlat.csv)
+x=read.csv("p5_longlat.csv")
+x
+x=read.csv("p5_longlat.csv", header=FALSE)
+x
+distm(x,fun=distHaversine)
+q=distm(x,fun=distHaversine)
+q
+write.csv(q,"p5_distance_matrix.csv")
+library(igraph)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=FALSE)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+write.graph(g, file="p5_ppa.net", format=c("pajek"))
+gn=edge.betweenness.community (g, weights=E(g)$weight,directed=FALSE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn=edge.betweenness.community (g ,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+g=read.file("p4_ppa.net")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=FALSE)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+x=read.csv("p4_longlat.csv", header=FALSE)
+distm(x,fun=distHaversine)
+q=distm(x,fun=distHaversine)
+q
+write.csv("p4_distance_matrix.csv")
+write.csv(q,"p4_distance_matrix.csv")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+write.graph(g, file="p4_ppa.net", format=c("pajek"))
+x=read.csv("p4_longlat.csv", header=FALSE)
+x
+distm(x,fun=distCosine)
+q=distm(x,fun=distCosine)
+q
+write.csv("p4_distance_matrix_cosine.csv")
+write.csv(q,"p4_distance_matrix_cosine.csv")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+write.graph(g, file="p4_ppa.net", format=c("pajek"))
+source('BR.R')
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+get.adjacency(g, type=c("upper"),attr=NULL, names=TRUE, edges=TRUE)
+write.graph(g, file="p6.net", format=c("pajek"))
+gn=edge.betweenness.community (g, weights=E(g)$weight,directed=FALSE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, weights = E(g)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+x=read.csv("p6_longlat.csv", header=FALSE)
+y=read.csv("p6_longlat.csv", header=FALSE)
+q=distm(x,y,fun=distHaversine)
+q
+write.csv(q,"p6_distance_matrix.csv")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=FALSE)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+write.graph(g, file="p6_ppa.net", format=c("pajek"))
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, weights = E(g)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+source('BR.R')
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=TRUE
+g
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+get.adjacency(g, type=c("upper"),attr=NULL, names=TRUE, edges=TRUE)
+write.graph(g, file="p7.net", format=c("pajek"))
+gn=edge.betweenness.community (g, weights=E(g)$weight,directed=FALSE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, weights = E(g)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+x=read.csv("p7_longlat.csv")
+x
+x=read.csv("p7_longlat.csv",header=FALSE)
+x
+y=read.csv("p7_longlat.csv",header=FALSE)
+q=distm(x,y,fun=distHaversine)
+write.csv(q,"p7_distance_matrix.csv")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=NULL)
+g=graph.adjacency(m,mode="undirected",weighted=NULL
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g=graph.adjacency(m,mode="directed",weighted=FALSE)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+write.graph(g, file="p7_ppa.net", format=c("pajek"))
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+source('BR.R')
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="undirected",weighted=TRUE)
+g
+get.adjacency(g, type=c("upper"),attr=NULL, names=TRUE, edges=TRUE)
+write.graph(g, file="p7.net", format=c("pajek"))
+gn=edge.betweenness.community (g, weights=E(g)$weight,directed=FALSE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, weights = E(g)$weight, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
+x=read.csv("p7_longlat.csv",header=FALSE)
+x
+y=read.csv("p7_longlat.csv",header=FALSE)
+q=distm(x,y, fun=distHaversine)
+q
+write.csv(q,"p7_distance_matrix.csv")
+dat=read.csv(file.choose(),header=TRUE,row.names=1,check.names=FALSE)
+m=as.matrix(dat)
+g=graph.adjacency(m,mode="directed",weighted=NULL)
+g
+get.adjacency(g, type=c("both"),attr=NULL, names=TRUE, edges=FALSE)
+write.graph(g, file="p7_ppa.net", format=c("pajek"))
+gn=edge.betweenness.community (g,directed=TRUE,edge.betweenness=TRUE,merges=TRUE,bridges=TRUE,modularity=TRUE,membership=TRUE)
+gn
+w=walktrap.community(g, steps = 4, merges =#
+          TRUE, modularity = TRUE, membership = TRUE)
+w
