@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>27.39886363634288102</xmin>
-            <ymin>24.48522727273383026</ymin>
-            <xmax>55.74886363634004738</xmax>
-            <ymax>43.32386363636830851</ymax>
+            <xmin>31.35541239685881365</xmin>
+            <ymin>29.41615440317183072</ymin>
+            <xmax>49.19092772646652634</xmax>
+            <ymax>41.35836423128430539</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -25,7 +25,7 @@
         </destinationsrs>
         <layer_coordinate_transform_info/>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="p4_ppa_node20140305153803319">
+    <legend updateDrawingOrder="true" activeLayer="p4_node20140303203635193">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nenezi" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="nenezi20140303230407129" visible="1"/>
@@ -56,14 +56,14 @@
                 <legendlayerfile isInOverview="0" layerid="bingola20140303230245466" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="p4_ppa.node" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="p4_ppa.node" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="p4_ppa_node20140305153803319" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="p4_ppa_node20140305153803319" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="p4_ppa.edge" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="p4_ppa.edge" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="p4_ppa_edge20140305153800956" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="p4_ppa_edge20140305153800956" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="agicol" showFeatureCount="0">
@@ -71,9 +71,9 @@
                 <legendlayerfile isInOverview="0" layerid="agicol20140303230234825" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="p4.node" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="p4.node" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="p4_node20140303203635193" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="p4_node20140303203635193" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="p4.edge" showFeatureCount="0">
@@ -141,7 +141,7 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Composer 1" visible="0">
+    <Composer title="Composer 1" visible="1">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -155,10 +155,11 @@
                     <prop k="width_border" v="0.26"/>
                 </layer>
             </symbol>
+            <SnapLine y1="0" x1="0" y2="0" x2="0"/>
             <ComposerLabel valign="32" labelText="Period 4 - 8600 - 8000 BP&#xa;Late Pre-Pottery Neolithic B" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Helvetica,16,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="86.5872" x="49.3438" transparency="0" y="190.501" height="13.4986" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{8b85820e-42e7-4288-93c2-90f2d0addba7}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="86.5872" x="49.3438" transparency="0" y="0" height="13.4986" positionMode="0" frame="false" outlineWidth="0.3" zValue="4" itemRotation="0" lastValidViewScaleFactor="2.52975" uuid="{8b85820e-42e7-4288-93c2-90f2d0addba7}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -340,59 +341,13 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="p4_ppa_edge20140305153800956" userText="" style="hidden" text="p4_ppa.edge" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="p4_ppa.edge">
-                            <symbols>
-                                <symbol alpha="1" type="line" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleLine" locked="0">
-                                        <prop k="capstyle" v="square"/>
-                                        <prop k="color" v="1,231,243,255"/>
-                                        <prop k="customdash" v="5;2"/>
-                                        <prop k="customdash_unit" v="MM"/>
-                                        <prop k="draw_inside_polygon" v="0"/>
-                                        <prop k="joinstyle" v="bevel"/>
-                                        <prop k="offset" v="0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="penstyle" v="solid"/>
-                                        <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.26"/>
-                                        <prop k="width_unit" v="MM"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
-                    <LayerItem layerId="p4_ppa_node20140305153803319" userText="" style="hidden" text="p4_ppa.node" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="p4_ppa.node">
-                            <symbols>
-                                <symbol alpha="1" type="marker" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleMarker" locked="0">
-                                        <prop k="angle" v="0"/>
-                                        <prop k="color" v="91,169,109,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="horizontal_anchor_point" v="1"/>
-                                        <prop k="name" v="circle"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="outline_style" v="solid"/>
-                                        <prop k="outline_width" v="0"/>
-                                        <prop k="outline_width_unit" v="MM"/>
-                                        <prop k="scale_method" v="area"/>
-                                        <prop k="size" v="2"/>
-                                        <prop k="size_unit" v="MM"/>
-                                        <prop k="vertical_anchor_point" v="1"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
                 </Model>
-                <ComposerItem width="49.1938" x="0" transparency="0" y="151.002" height="64.9984" positionMode="0" frame="true" outlineWidth="0.3" zValue="2" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{b0162404-7cc6-434c-bcb6-30882e8050ae}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="49.1938" x="5e-05" transparency="0" y="0.15" height="52.9984" positionMode="0" frame="true" outlineWidth="0.3" zValue="3" itemRotation="0" lastValidViewScaleFactor="2.52975" uuid="{b0162404-7cc6-434c-bcb6-30882e8050ae}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="1" previewMode="Cache" drawCanvasItems="true">
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
                         <layer pass="0" class="SimpleFill" locked="0">
@@ -407,7 +362,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="29.98507707073583362" xmin="31.34424674265211763" ymax="42.33132254513510162" xmax="48.74657369704346621"/>
+                <Extent ymin="29.41615440317183072" xmin="31.35541239685881365" ymax="42.08717707841502431" xmax="49.19092772646652634"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -434,7 +389,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="296" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{dcd34be9-ed98-4234-bc5e-e1407690eefa}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="211" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.52975" uuid="{f64c345b-28f6-4ab1-9a7e-94d57cc1a176}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -4238,10 +4193,10 @@
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
+                <property key="labeling/dist" value="3"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="Obsidian a"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -4250,7 +4205,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSize" value="10"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -4362,6 +4317,21 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <SingleCategoryDiagramRenderer diagramType="Pie">
+                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="-1" font=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" backgroundColor="#ffffff" transparency="0" width="5" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" height="5" sizeType="MM" minScaleDenominator="-1">
+                    <attribute field="&quot;Agicol Eas&quot;" color="#008040"/>
+                    <attribute field="&quot;Gollu Dag &quot;" color="#0080ff"/>
+                    <attribute field="&quot;Nenezi Dag&quot;" color="#004080"/>
+                    <attribute field="&quot;Bingol A&quot;" color="#ff6666"/>
+                    <attribute field="&quot;Nemrut Dag&quot;" color="#ff6666"/>
+                    <attribute field="&quot;Bingol A /&quot;" color="#ff6666"/>
+                    <attribute field="&quot;Meydan Dag&quot;" color="#8000ff"/>
+                    <attribute field="&quot;Bingol B&quot;" color="#ffff66"/>
+                    <attribute field="&quot;3d high in&quot;" color="#7f7f7f"/>
+                    <attribute field="&quot;Unknown&quot;" color="#191919"/>
+                </DiagramCategory>
+            </SingleCategoryDiagramRenderer>
+            <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="0" placement="1" dist="0" xPosColumn="-1" priority="0" obstacle="0"/>
             <edittypes>
                 <edittype labelontop="0" editable="1" type="0" name="3d high in"/>
                 <edittype labelontop="0" editable="1" type="0" name="Agicol Eas"/>
@@ -4473,10 +4443,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -4556,10 +4526,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>

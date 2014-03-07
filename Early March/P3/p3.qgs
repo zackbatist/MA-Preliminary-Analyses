@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>34.31236566402108679</xmin>
-            <ymin>33.99846208852923013</ymin>
-            <xmax>42.37571433984523139</xmax>
-            <ymax>39.37987087869881719</ymax>
+            <xmin>34.04560025397568523</xmin>
+            <ymin>34.53731494859204787</ymin>
+            <xmax>41.85552625245059488</xmax>
+            <ymax>39.76664380689476985</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -189,7 +189,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Composer 2" visible="0">
+    <Composer title="Composer 2" visible="1">
         <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="210" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
             <symbol alpha="1" type="fill" name="">
                 <layer pass="0" class="SimpleFill" locked="0">
@@ -206,7 +206,7 @@
             <ComposerLabel valign="32" labelText="Period 3 - 9600 - 8600 BP&#xa;Early / Middle Pre-Pottery Neolithic B" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Helvetica,16,-1,5,75,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="106.41" x="138.897" transparency="0" y="185.155" height="14.8446" positionMode="0" frame="false" outlineWidth="0.3" zValue="7" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{98f4f967-ff35-4f72-a439-cc26d4b2785b}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="106.41" x="140.896" transparency="0" y="195.155" height="14.8446" positionMode="0" frame="false" outlineWidth="0.3" zValue="5" itemRotation="0" lastValidViewScaleFactor="2.56426" uuid="{98f4f967-ff35-4f72-a439-cc26d4b2785b}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -365,7 +365,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="49.1938" x="245.556" transparency="0" y="146.752" height="52.9984" positionMode="0" frame="true" outlineWidth="0.5" zValue="6" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{835abcb1-21d7-4f81-8263-399e4ceb9696}" id="" background="false" blendMode="0" positionLock="false">
+                <ComposerItem width="49.1938" x="247.556" transparency="0" y="156.752" height="52.9984" positionMode="0" frame="true" outlineWidth="0.5" zValue="4" itemRotation="0" lastValidViewScaleFactor="2.56426" uuid="{835abcb1-21d7-4f81-8263-399e4ceb9696}" id="" background="false" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="51" blue="51" green="51"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -385,7 +385,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="33.99846208852923013" xmin="34.31236566402108679" ymax="39.60180608359346621" xmax="42.37571433984523139"/>
+                <Extent ymin="34.53731494859204787" xmin="34.04560025397568523" ymax="40.05948484650360086" xmax="41.85552625245059488"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <framePenColor alpha="255" red="0" blue="0" green="0"/>
@@ -412,7 +412,7 @@
                     </Annotation>
                 </Grid>
                 <AtlasMap fixedScale="0" atlasDriven="0" margin="0.10000000000000001"/>
-                <ComposerItem width="295" x="1" transparency="0" y="0" height="205" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.57284" uuid="{7b0b8009-3dda-4a8a-9e3f-4ecc30316c16}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="297" x="0" transparency="0" y="0" height="210" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" itemRotation="0" lastValidViewScaleFactor="2.56426" uuid="{48d05cb8-a534-407c-b548-4fe9e67fbd02}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -616,10 +616,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -821,10 +821,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -1026,10 +1026,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2226,10 +2226,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -3426,10 +3426,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -3631,10 +3631,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="long"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -4084,8 +4084,6 @@
                         </layer>
                     </symbol>
                 </source-symbol>
-                <colorramp type="randomcolors" name="[source]"/>
-                <invertedcolorramp value="0"/>
                 <rotation/>
                 <sizescale scalemethod="area"/>
             </renderer-v2>
@@ -4109,11 +4107,11 @@
                 <property key="labeling/dataDefined/PositionX" value="1~~0~~~~x"/>
                 <property key="labeling/dataDefined/PositionY" value="1~~0~~~~y"/>
                 <property key="labeling/decimals" value="3"/>
-                <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
+                <property key="labeling/displayAll" value="true"/>
+                <property key="labeling/dist" value="6.5"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value="Label"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="Obsidian a"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -4122,7 +4120,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSize" value="10.5"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -4247,7 +4245,7 @@
                     <attribute field="&quot;Bingol A&quot;" color="#ff6666"/>
                 </DiagramCategory>
             </SingleCategoryDiagramRenderer>
-            <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="0" placement="0" dist="0" xPosColumn="-1" priority="2" obstacle="0"/>
+            <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="0" placement="1" dist="0" xPosColumn="-1" priority="10" obstacle="0"/>
             <edittypes>
                 <edittype labelontop="0" editable="1" type="0" name="Agicol Eas"/>
                 <edittype labelontop="0" editable="1" type="0" name="Agicol Wes"/>
